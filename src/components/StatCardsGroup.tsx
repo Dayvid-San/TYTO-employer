@@ -46,7 +46,7 @@ export const StatCardsGroup = ({
       <StatCard 
         title="Total de Colaboradores" 
         value={totalCollaborators} 
-        color="#00c853" // Verde Flugo
+        color="#00c853" // Verde TYTO
       />
       <StatCard 
         title="Média Salarial" 

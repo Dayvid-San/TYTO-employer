@@ -46,7 +46,7 @@ export const NavbarsLayout = ({ children }: LayoutProps) => {
             justifyContent: 'space-between'
         }}>
             <Box>
-                <img src="https://dayvidsantana.com/logotipo_simples_1.png" alt="Flugo" style={{ width: 100, marginBottom: 40 }} />
+                <img src="https://dayvidsantana.com/logotipo_simples_1.png" alt="TYTO" style={{ width: 100, marginBottom: 40 }} />
                 
                 <List sx={{ p: 0 }}>
                     {menuItems.map((item) => {
@@ -90,7 +90,7 @@ export const NavbarsLayout = ({ children }: LayoutProps) => {
             alignItems: 'center', 
             justifyContent: 'space-between' 
         }}>
-            <img src="/logo-flugo.png" alt="Flugo" style={{ width: 80 }} />
+            <img src="https://dayvidsantana.com/logotipo_simples_1.png" alt="TYTO" style={{ width: 80 }} />
             <Box sx={{ display: 'flex', gap: 1 }}>
                 <IconButton onClick={() => navigate('/dashboard')} color={location.pathname === '/dashboard' ? 'primary' : 'default'}><PeopleIcon /></IconButton>
                 <IconButton onClick={() => navigate('/departamentos')} color={location.pathname === '/departamentos' ? 'primary' : 'default'}><BusinessIcon /></IconButton>

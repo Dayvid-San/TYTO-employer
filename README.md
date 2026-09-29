@@ -1,4 +1,4 @@
-# Flugo - Gestão de Colaboradores
+# TYTO - Gestão de Colaboradores
 
 Responsivo e fluido, porém ainda com ruído. Pode ser acessado por aqui: https://formulario-flugo.vercel.app/
 
@@ -56,7 +56,7 @@ O processo de cadastro foi desenhado para ser intuitivo, evitando a sobrecarga d
 
 1. **Clone o repositório:**
 ```bash
-git clone https://github.com/seu-usuario/flugo-management.git
+git clone https://github.com/seu-usuario/TYTO-employer.git
 
 ```
 

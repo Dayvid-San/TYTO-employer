@@ -23,7 +23,7 @@ export const Sidebar = () => {
       }}
     >
       <Toolbar>
-        <img src="/logo-flugo.png" alt="Flugo" style={{ width: '100%' }} />
+        <img src="https://dayvidsantana.com/logotipo_simples_1.png" alt="TYTO" style={{ width: '100%' }} />
       </Toolbar>
       <Divider />
       <List>

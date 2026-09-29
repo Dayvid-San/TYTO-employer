@@ -61,7 +61,7 @@ export const DashboardHeader = ({
     const worksheet = XLSX.utils.json_to_sheet(worksheetData);
     const workbook = XLSX.utils.book_new();
     XLSX.utils.book_append_sheet(workbook, worksheet, "Colaboradores");
-    XLSX.writeFile(workbook, `relatorio_flugo_${new Date().getTime()}.xlsx`);
+    XLSX.writeFile(workbook, `relatorio_tyto_${new Date().getTime()}.xlsx`);
   };
 
   return (

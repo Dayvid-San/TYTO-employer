@@ -14,7 +14,8 @@ import MailOutlinedIcon from '@mui/icons-material/MailOutlined';
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import VisibilityOffIcon from '@mui/icons-material/VisibilityOff';
-import LogoFlugo from '../../public/logo-flugo.png'; 
+
+const LogoTyto = 'https://dayvidsantana.com/logotipo_simples_1.png';
 
 export const LoginPage = () => {
   const [isRegistering, setIsRegistering] = useState(false);
@@ -72,7 +73,7 @@ export const LoginPage = () => {
           p: 4,
           borderRight: { md: '1px solid #e0e0e0' }
         }}>
-          <img src={LogoFlugo} alt="Flugo Logo" style={{ width: '150px', marginBottom: '32px' }} />
+          <img src={LogoTyto} alt="TYTO Logo" style={{ width: '150px', marginBottom: '32px' }} />
           <Typography variant="h5" color="#666" fontWeight="bold">Organizador de Equipes</Typography>
           <Typography variant="body1" color="#999" sx={{ mt: 1 }}>TYTO.club</Typography>
         </Grid>
@@ -89,7 +90,7 @@ export const LoginPage = () => {
               {isRegistering ? 'Criar Conta' : 'Bem-vindo de volta!'}
             </Typography>
             <Typography variant="body1" color="#78909c" sx={{ mb: 4 }}>
-              {isRegistering ? 'Preencha os dados abaixo.' : 'Acesse sua conta Flugo.'}
+              {isRegistering ? 'Preencha os dados abaixo.' : 'Acesse sua conta TYTO.'}
             </Typography>
 
             {error && <Alert severity="error" sx={{ mb: 3 }}>{error}</Alert>}
